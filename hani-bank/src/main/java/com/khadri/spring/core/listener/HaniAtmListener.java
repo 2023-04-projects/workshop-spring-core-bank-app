@@ -3,12 +3,14 @@ package com.khadri.spring.core.listener;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
-import com.khadri.spring.core.event.SbiAtmEvent;
+import com.khadri.spring.core.event.HaniAtmEvent;
 
 @Component
-public class SbiAtmListener {
+public class HaniAtmListener {
 	@EventListener
-	public void sbiEvent(SbiAtmEvent event) {
-		System.out.println("sbi atm listener");
+	public void haniEvent(HaniAtmEvent event) {
+		System.out.println("HANI Bank ATM EVENTS ... !");
+
 	}
+
 }

@@ -20,6 +20,7 @@
 		<module>atm-module</module>
 		<module>hani-bank</module>
 		<module>sbi-bank-module</module>
+		<module>hdfc-bank-module</module>
 	</modules>
 
 	<build>

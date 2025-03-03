@@ -6,14 +6,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.khadri.spring.core.config.AppConfig;
 import com.khadri.spring.core.publisher.AtmEventPublisher;
 
-
-
 public class SpringMain {
 
 	public static void main(String[] args) {
 		SpringMain main = new SpringMain();
 		main.invoke();
-
 	}
 
 	private void invoke() {
